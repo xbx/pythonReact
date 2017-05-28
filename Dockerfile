@@ -2,8 +2,8 @@ FROM python:3.5-slim
 
 RUN apt-get update && \
     apt-get -y install gcc mono-mcs && \
-#	apt-get -y install vim && \
-#	apt-get -y install nano && \
+	apt-get -y install vim && \
+	apt-get -y install nano && \
 	    rm -rf /var/lib/apt/lists/*
 
 COPY requirements.txt /opt/requirements.txt
