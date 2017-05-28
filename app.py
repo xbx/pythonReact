@@ -34,7 +34,7 @@ class RootController(TGController):
 config = AppConfig(minimal=True, root_controller=RootController())
 config.renderers = ['kajiki']
 config.serve_static = True
-config.paths['static_files'] = 'statics'
+config.paths['static_files'] = '/statics'
 
 from webassets.filter import register_filter
 from dukpy.webassets import BabelJSX
