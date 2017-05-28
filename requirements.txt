@@ -1,0 +1,5 @@
+TurboGears2==2.3.10
+Kajiki==0.6.3
+tgext.webassets==0.0.2
+dukpy==0.1.0
+
